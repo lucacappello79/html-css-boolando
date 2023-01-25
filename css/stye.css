@@ -81,6 +81,7 @@ main{
 }
 
 #card{
+    position: relative;
     width: calc(100% / 3);
     height: 525px;
     border: 1px solid black;
@@ -88,6 +89,13 @@ main{
 
 #card .card-img img{
     width: 100%;
+}
+
+#card .card-hover img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .brand{
