@@ -98,7 +98,7 @@ main{
     left: 0;
 }
 
-.card-img:hover .card-hover{
+#card:hover .card-hover img{
     display: inline-block;
 }
 
