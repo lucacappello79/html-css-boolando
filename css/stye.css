@@ -139,9 +139,35 @@ main{
 }
 
 footer{
-    display: flex;
-    justify-content: space-between;
     height: 80px;
     background-color: black;
     color: white;
 }
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+}
+
+.footer-left, .footer-right{
+    margin-top: 10px;
+}
+
+.legal{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.info{
+    margin-right: 10px;
+}
+
+.social{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
