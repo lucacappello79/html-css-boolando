@@ -69,13 +69,13 @@ main{
     margin: auto;
 }
 
-#row{
+.row{
     display: flex;
     justify-content: space-between;
     gap: 15px;
 }
 
-#row.row-top{
+.row.row-top{
     margin-bottom: 30px;
 }
 
