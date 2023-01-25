@@ -79,11 +79,35 @@ main{
     margin-bottom: 30px;
 }
 
+.red{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    z-index: 1;
+    background-color: red;
+    color: white;
+    padding: 5px 5px;;
+}
+
+.green{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    z-index: 1;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+}
+
 .card-main{
     display: inline-block;
     position: relative;
     width: calc(100% / 3);
     height: 525px;
+}
+
+.card-img{
+    position: relative;
 }
 
 .card-main .card-img img{
