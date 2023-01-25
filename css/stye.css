@@ -79,18 +79,18 @@ main{
     margin-bottom: 30px;
 }
 
-#card{
+.card-main{
     display: inline-block;
     position: relative;
     width: calc(100% / 3);
     height: 525px;
 }
 
-#card .card-img img{
+.card-main .card-img img{
     width: 100%;
 }
 
-#card .card-hover img{
+.card-main .card-hover img{
     display: none;
     width: 100%;
     position: absolute;
@@ -98,7 +98,7 @@ main{
     left: 0;
 }
 
-#card:hover .card-hover img{
+.card-main:hover .card-hover img{
     display: inline-block;
 }
 
