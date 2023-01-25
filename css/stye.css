@@ -67,7 +67,6 @@ main{
 .main-inner{
     width: 1000px;
     margin: auto;
-    border: 1px solid black;
 }
 
 #row{
@@ -81,10 +80,10 @@ main{
 }
 
 #card{
+    display: inline-block;
     position: relative;
     width: calc(100% / 3);
     height: 525px;
-    border: 1px solid black;
 }
 
 #card .card-img img{
@@ -92,10 +91,15 @@ main{
 }
 
 #card .card-hover img{
+    display: none;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.card-img:hover .card-hover{
+    display: inline-block;
 }
 
 .brand{
